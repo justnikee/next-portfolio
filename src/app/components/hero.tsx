@@ -46,7 +46,7 @@ const Hero = () => {
           opacity: 1,
           }}
           transition={{ duration: 1}}
-          className='text-[18px] leading-[28px] text-[#8892b0] max-w-[600px] w-full block text-center mb-3 mt-3'>A frontend noobie developer with 1 year of experience in working with HTML,
+  className='text-[18px] leading-[28px] text-[#8892b0] max-w-[600px] w-full block text-center mb-3 mt-3'>A frontend noobie developer with 1 year of experience in working with HTML,
           CSS, and JavaScript, eager to create visually appealing and
           interactive web pages, collaborate, and contribute to projects
           while embracing best practices.</motion.span>
@@ -60,7 +60,7 @@ const Hero = () => {
           opacity: 1,
           }}
           transition={{ duration: 1.2}}>
-          <Link href="/contact" className="relative rounded hover:translate-x-1	hover:translate-y-1	transition-[0.2s]">
+          <Link href="/contact" className="relative rounded">
           <span className='bg-[rgba(255,255,255,.3)] backdrop-blur	shadow-sm	text-black uppercase px-10 py-3 rounded text-lg h-full w-full z-10 relative  block'>Wanna Cook Website?</span>
           <span className='block absolute bg-gradient-to-r from-orange-400 to-yellow-200 h-full w-full top-0 right-0 z-0 translate-x-2 rounded translate-y-2'></span>
               </Link>
