@@ -34,7 +34,7 @@ const About = () => {
                   including an advertising agency, a startup, a large corporation, and a
                   student-led design studio. Currently, I am focused on developing accessible
                   and inclusive products and digital experiences at Upstatement, serving a
-                  range of clients.I'm excited to continue honing my skills and exploring new
+                  range of clients.Im excited to continue honing my skills and exploring new
                   possibilities in the ever-evolving field of web development.</motion.p>
                     <div className='w-1/2 flex justify-center items-center'>
                         <Image
