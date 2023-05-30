@@ -3,10 +3,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import topRightImage from '../../../public/top-right.svg'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex items-center justify-center'>   
+    <div id='about' className='flex items-center justify-center'>   
           <div className='flex flex-col gap-4 justify-center items-center max-w-screen-xl w-full p-4'>
         <motion.h3
           initial={{ opacity: 0 }}
@@ -65,7 +67,7 @@ const Hero = () => {
           <span className='block absolute bg-gradient-to-r from-orange-400 to-yellow-200 h-full w-full top-0 right-0 z-0 translate-x-2 rounded translate-y-2'></span>
               </Link>
         </motion.div>
-          </div>
+      </div>
     </div>
   )
 }

@@ -3,13 +3,14 @@
 import Image from 'next/image'
 import React from 'react'
 import image from '../../../public/pp.jpg'
-import {motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import left from '../../../public/left.svg'
 
 const About = () => {
     
     return (
       <AnimatePresence>
-    <div className='flex flex-col justify-center gap-6 max-w-screen-xl p-4 w-full bg-gradient-to-r from-[rgba(248, 78, 95, 0.85)] to-[rgba(254, 190, 48, 0.6)] h-screen '>
+    <div className='flex relative flex-col justify-center gap-6 max-w-screen-xl p-4 w-full bg-gradient-to-r from-[rgba(248, 78, 95, 0.85)] to-[rgba(254, 190, 48, 0.6)] h-screen '>
           <motion.h2
           initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -37,16 +38,17 @@ const About = () => {
                   range of clients.Im excited to continue honing my skills and exploring new
                   possibilities in the ever-evolving field of web development.</motion.p>
                     <div className='w-1/2 flex justify-center items-center'>
-                        <Image
+                <Image
                   height={500}
                   width={300}
                   src={image}
                   loading='lazy'
               alt='proffile picture'>
               </Image> 
-              </div>
-                    
+              </div>    
           </div>
+          <Image src={left} loading='lazy' alt='gradient'
+          className='absolute left-[-500px] top-0 h-full w-full' />
 
             </div>
             </AnimatePresence>

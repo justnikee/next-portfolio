@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Hero from './components/hero'
 import About from './components/about'
+import Lenis from '@studio-freight/lenis'
 
 export default function Home() {
   return (
